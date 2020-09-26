@@ -1,0 +1,17 @@
+{
+    "name": "Instagram's story search",
+    "version": "1.0",
+    "description": "Super easy way to find out if a specific person has seen your active stories (Ever thought your crush has stalked you?? 😜)",
+    "permissions": [
+        "*://www.instagram.com/graphql/query/?query_hash=90709b530ea0969f002c86a89b4f2b8d*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "manifest_version": 2
+}
